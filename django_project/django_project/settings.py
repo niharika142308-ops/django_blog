@@ -128,6 +128,21 @@ MEDIA_URL = '/media/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# Host for sending e-mail.
+# EMAIL_HOST = 'localhost'
+
+# # Port for sending e-mail.
+# EMAIL_PORT = 1025
+
+# # Optional SMTP authentication information for EMAIL_HOST.
+# EMAIL_HOST_USER = ''
+# EMAIL_HOST_PASSWORD = ''
+# EMAIL_USE_TLS = False
+
+#DataFlair
+# EMAIL_BACKEND ='django.core.mail.backends.smtp.EmailBackend'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
